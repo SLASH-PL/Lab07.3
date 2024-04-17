@@ -100,8 +100,28 @@ class Program
             new Player() { Id = 3, Name = "Kuba", Points = 45 },
         };
         Console.WriteLine(String.Join(", ", players));
+    }
 
+    public static void DictionaryDemo()
+    {
+        Dictionary<string, Player> aBook = new Dictionary<string, Player>();
+        aBook.Add("adam@wsei.edu.pl", new Player(){Name = "Adam", Id = 1});
+        aBook.Add("adam@onet.edu.pl", aBook["adam@wsei.edu.pl"]);
+        aBook.Add("ewa@onet.edu.pl", new Player(){Name = "Ewa", Id = 2, Points = 34});
         
+        if (aBook.ContainsKey("xyz"))
+        {
+            Console.WriteLine(aBook["xyz"]);  
+        }
+        else
+        {
+            Console.WriteLine("Brak");
+        }
+
+        foreach (var entry in aBook)
+        {
+            Console.WriteLine($"Gracz o adresie {entry.Key} to {entry.Value.ToString()}");
+        }
     }
 
 }

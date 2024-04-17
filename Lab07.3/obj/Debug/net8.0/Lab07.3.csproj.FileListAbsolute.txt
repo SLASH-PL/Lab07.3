@@ -12,3 +12,4 @@ D:\Users\hubert.haladyna\RiderProjects\Lab07.3\Lab07.3\obj\Debug\net8.0\refint\L
 D:\Users\hubert.haladyna\RiderProjects\Lab07.3\Lab07.3\obj\Debug\net8.0\Lab07.3.pdb
 D:\Users\hubert.haladyna\RiderProjects\Lab07.3\Lab07.3\obj\Debug\net8.0\Lab07.3.genruntimeconfig.cache
 D:\Users\hubert.haladyna\RiderProjects\Lab07.3\Lab07.3\obj\Debug\net8.0\ref\Lab07.3.dll
+D:\Users\hubert.haladyna\RiderProjects\Lab07.3\Lab07.3\obj\Debug\net8.0\Lab07.3.sourcelink.json
